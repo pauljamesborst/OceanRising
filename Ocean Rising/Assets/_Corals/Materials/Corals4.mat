@@ -13,11 +13,10 @@ Material:
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: 2999
+  m_CustomRenderQueue: 2449
   stringTagMap:
-    RenderType: Transparent
-  disabledShaderPasses:
-  - SHADOWCASTER
+    RenderType: TransparentCutout
+  disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -109,10 +108,10 @@ Material:
     - _AlphaClip: 1
     - _Blend: 0
     - _BumpScale: 1
-    - _Cull: 1
-    - _Cutoff: 0.241
+    - _Cull: 0
+    - _Cutoff: 1
     - _DetailNormalMapScale: 1
-    - _DstBlend: 10
+    - _DstBlend: 0
     - _EmissionMultiplayer: 0
     - _EmissionSwitch: 0
     - _EnableExternalAlpha: 0
@@ -132,17 +131,17 @@ Material:
     - _SampleGI: 0
     - _SmoothFromMapSwitch: 1
     - _SmoothRough: 0
-    - _Smoothness: 0.348
+    - _Smoothness: 0.909
     - _SmoothnessTextureChannel: 0
     - _Snoothness: 1.29
     - _SpecularHighlights: 1
-    - _SrcBlend: 5
-    - _Surface: 1
+    - _SrcBlend: 1
+    - _Surface: 0
     - _Tiling: 1
     - _TransmisionValue: 1
     - _UVSec: 0
     - _WorkflowMode: 1
-    - _ZWrite: 0
+    - _ZWrite: 1
     - __dirty: 0
     m_Colors:
     - _AlbedoColor: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
