@@ -10291,8 +10291,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input:
-    actionPath: 
+    actionPath: /actions/default/in/TouchPad
     needsReinit: 0
+  speed: 2
 --- !u!1001 &1073610606
 PrefabInstance:
   m_ObjectHideFlags: 0
